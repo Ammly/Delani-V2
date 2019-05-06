@@ -144,3 +144,11 @@ footer{
   max-width: 70vw;
   margin: 0 auto;
 }
+@media only screen and (max-width: 1024px){
+    .col-md-12 h1,#sec-2 h1,#sec-3 h1,#sec-4 h1 {
+      font-size: calc(3vw + 3vh + .5vmin);
+    }
+    .col-md-12 p,#sec-2 p,#sec-3 p {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+}
